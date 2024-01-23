@@ -4,8 +4,7 @@ user-select: none;
 }
 
 @media (max-width: 40em) {
-  body { padding: 1em; !important}
- *,*::before,*::after{font-size:1em !important}
+ *,*::before,*::after{font-size:16px !important}
 }
 
 body{
