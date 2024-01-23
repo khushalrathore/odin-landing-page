@@ -1,0 +1,199 @@
+*{box-sizing:border-box}
+body{
+ font-family: system-ui;
+}
+.hero-bg, .footer-bg { 
+  background: #1F2937;
+ 
+  }
+.hero-main{
+  padding: 0 4rem 0 0.2rem;
+  margin-top:0.5em;
+}
+p{
+  margin:0 0 0.5rem 0;
+}
+h5{
+  margin:0;
+    color: rgba(255, 255, 255, 0.726);
+      font-weight:500;
+
+
+}
+h6{
+  margin:0;
+  font-size:0.41em;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-weight:500;
+  color: rgba(0, 0, 0, 0.526);
+  transition: font-weight 0.15s
+}
+
+img{
+  margin:0;
+}
+.font-lg{
+  font-size: 48px;
+  font-weight: 900;
+  color: #F9FAF8;
+}
+.font-md{
+  font-size: 18px;
+  color:rgba(255, 255, 255, 0.726);
+  margin-top:0;
+}
+.btn{
+  background: #3882F6;
+  color:white;
+  font-size:1.2em;
+  margin-top:1em;
+  padding: 0.5em 1.5em 0.5em 1.5em;
+  border:none;
+  border-radius:0.41em;
+      font-weight:900;
+cursor:pointer;
+  transition: background 0.15s, color 0.15s;
+}
+
+
+.header_2 .btn:hover, .btn:active{
+    background: linear-gradient(135deg, purple, #7CB9E8, yellow);
+  color:black;
+}
+
+.btn-inv{
+  background: #3882F6;
+  color:white;
+  font-size:1em;
+  margin-top:1em;
+  padding: 0.2em 1.2em 0.2em 1.2em;
+  border:2px solid white;
+  border-radius:0.41em;
+  cursor:pointer;
+}
+.btn-inv:hover, .btn-inv:hover{
+  background: white;
+    color:#3882F6;
+}
+
+.info{
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+}
+
+.quote{
+  font-size: 2.5em;
+  font-weight: 200;
+  font-style: italic;
+  color: #1F2937;
+  background: #E5E7EB;
+  display:block;
+  padding: 2em 3em 2em 3em;
+
+}
+.quote::after{
+  content:"-Stitch, never said that";
+  font-style:none;
+  font-weight: 600;
+  font-size:0.6em;
+ 
+  overflow:hidden;
+}
+.bottom{
+  width:100%;
+  color:white;
+  display:flex;
+justify-content:center;
+align-items:center;
+  padding:2em;
+}
+h3{
+  margin:0;
+}
+.call{
+  width:70%;
+  margin: 6em 9em 6em 9em;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  padding-block:2.5em;
+
+}
+.footer{
+  display:flex;
+  flex-direction:column;
+justify-content:center;
+align-items:center;
+}
+
+body{
+    margin:0;
+  }
+.header{
+  display: flex;
+  justify-content:space-between;
+  flex-direction: column;
+  padding-inline:12.5%;
+
+}
+ a{
+  padding-inline: 0.5em;
+  cursor: pointer;
+  transition: font-weight 0.15s
+ }
+.transition{
+  font-weight:400;
+  transition: font-weight 0.15s,color 0.15s, text-decoration 0.15s ;
+}
+.transition:hover{
+  font-weight:900;
+  text-decoration: underline 8px solid yellow;
+  color:lightblue;
+}
+  .logo{
+    width: 10em;
+  }
+  .img-placeholder{
+      background: url('https://i.pinimg.com/originals/48/9b/39/489b39d01b5d6a6de7e04de88c673bc4.gif') no-repeat center center;
+      width: 523px; height: 201px; background-size: cover;
+  }
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding:1.5em 1.5em 3em 1.5em;
+  flex-wrap: wrap;
+}
+.games-info{
+  display: flex;
+    flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.game-image{
+  margin:1.5em 1.5em 0.5em 1.5em;
+  background-position: center;
+  object-fit: cover;
+  width:5em;
+  height:5em;
+  border-radius:0.4em;
+}
+.header1{
+display: flex; 
+justify-content: space-between; 
+align-items: center; 
+padding-inline: 1em; 
+flex-wrap: wrap;
+}
+.header_2{
+  display: flex; 
+  flex-direction: row; 
+  justify-content: space-between; 
+  align-items: center; 
+  padding-inline: 1em; 
+  padding-block: 6em;
+}
