@@ -5,7 +5,8 @@ user-select: none;
 
 @media (max-width: 40em) {
  *,*::before,*::after{font-size:16px !important}
-  .header_1{justify-content: space-around !important; padding-inline:0.3em !important}
+  .header{height:100dvh}
+  .header_1{justify-content: space-around !important; padding-inline:0.1em !important; gap:4em;}
   .header_2{flex-direction: column-reverse !important;}
   .mobile{ width : 100% !important;}
   .img-placeholder{width :100% !important; margin-bottom:1em !important;}
