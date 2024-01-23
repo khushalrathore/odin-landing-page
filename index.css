@@ -6,8 +6,8 @@ user-select: none;
 @media (max-width: 40em) {
  *,*::before,*::after{font-size:16px !important}
   .header{height:100dvh}
-  .header_1{justify-content: space-around !important; padding-inline:0.1em !important; gap:4em;}
-  .header_2{flex-direction: column-reverse !important;}
+  .header_1{justify-content: space-around !important; padding-inline:0.1em !important; gap:2.5em;}
+  .header_2{flex-direction: column-reverse !important;  padding-top:60px !important;}
   .mobile{ width : 100% !important;}
   .img-placeholder{width :100% !important; margin-bottom:1em !important;}
   .hero-section{width:100% !important; height:240px !important;}
@@ -212,6 +212,6 @@ flex-wrap: wrap;
   flex-direction: row; 
   justify-content: space-between; 
   align-items: center; 
-  padding-inline: 1em; 
-  padding-block: 6em;
+  margin-top: 0px;
+  padding: 3em 6em 1em 6em;
 }
