@@ -5,19 +5,28 @@ user-select: none;
 
 @media (max-width: 40em) {
  *,*::before,*::after{font-size:16px !important}
+  .header_1{justify-content: space-around !important; padding-inline:0.3em !important}
+  .header_2{flex-direction: column-reverse !important;}
+  .mobile{ width : 100% !important;}
+  .img-placeholder{width :100% !important; margin-bottom:1em !important;}
+  .hero-section{width:100% !important; height:240px !important;}
+  .hero-main{padding: 0 0.2rem 0 0.2rem !important;}
+  .game-mobile{display:flex; justify-content: space-between; align-items: center;}
+  .call{width:80% !important; margin: 6em 3em 6em 3em !important;}
+  h6{justify-content:start !important;}
 }
-
 body{
  font-family: system-ui;
 }
 .hero-bg, .footer-bg { 
   background: #1F2937;
- 
+
   }
 .hero-main{
   padding: 0 4rem 0 0.2rem;
   margin-top:0.5em;
 }
+.hero-section{width:50%}
 p{
   margin:0 0 0.5rem 0;
 }
@@ -38,7 +47,7 @@ h6{
   color: rgba(0, 0, 0, 0.526);
   transition: font-weight 0.15s
 }
-
+ .mobile{ width : 50%;}
 img{
   margin:0;
 }
@@ -107,7 +116,7 @@ cursor:pointer;
   font-style:none;
   font-weight: 600;
   font-size:0.6em;
- 
+
   overflow:hidden;
 }
 .bottom{
