@@ -3,18 +3,24 @@
 user-select: none;
 }
 
-@media (max-width: 40em) {
+@media (max-width: 900px) {
  *,*::before,*::after{font-size:16px !important}
-  .header{height:100dvh}
+  .header{height:80dvh}
   .header_1{justify-content: space-around !important; padding-inline:0.1em !important; gap:2.5em;}
   .header_2{flex-direction: column-reverse !important;  padding-top:60px !important;}
   .mobile{ width : 100% !important;}
   .img-placeholder{width :100% !important; margin-bottom:1em !important;}
   .hero-section{width:100% !important; height:240px !important;}
   .hero-main{padding: 0 0.2rem 0 0.2rem !important;}
-  .game-mobile{display:flex; justify-content: space-between; align-items: center;}
+  .game-mobile{display:flex; justify-content: space-between; align-items: center; }
   .call{width:80% !important; margin: 6em 3em 6em 3em !important;}
+  .games-info{justify-content:start !important;}
   h6{justify-content:start !important;}
+}
+@media (max-width: 40em) {
+ *,*::before,*::after{font-size:16px !important}
+    .games-info{justify-content:start !important;}
+
 }
 body{
  font-family: system-ui;
