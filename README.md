@@ -1,6 +1,6 @@
 # Stitch Disney Character Page
 
-![Stitch](https://m.media-amazon.com/images/I/71QlqVtLkqL._AC_UF894,1000_QL80_.jpg=250x250)
+![Stitch](https://i.pinimg.com/originals/fe/78/9c/fe789c7ced884e5fe8f3b76c8cde4a5a.gif)
 
 ## Overview
 
