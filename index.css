@@ -7,7 +7,7 @@ user-select: none;
  *,*::before,*::after{font-size:16px !important}
   .header{height:80dvh}
   .header_1{justify-content: space-around !important; padding-inline:0.1em !important; gap:2.5em;}
-  .header_2{flex-direction: column-reverse !important;  padding-top:60px !important;}
+  .header_2{flex-direction: column-reverse !important;  padding-top:60px !important;padding-bottom:3rem;}
   .mobile{ width : 100% !important;}
   .img-placeholder{width :100% !important; margin-bottom:1em !important;}
   .hero-section{width:100% !important; height:240px !important;}
